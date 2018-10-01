@@ -190,7 +190,7 @@ class Mail_Mbox extends PEAR
      *
      * @access public
      */
-    function Mail_Mbox($file)
+    function __construct($file)
     {
         $this->_file = $file;
     }
